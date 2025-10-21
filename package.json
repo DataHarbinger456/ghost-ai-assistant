@@ -1,0 +1,27 @@
+{
+  "name": "new-ghost",
+  "version": "1.0.0",
+  "description": "Ghost AI Assistant - Personal AI assistant for Limitless Pendant recordings",
+  "main": "dist/cli/index.js",
+  "bin": {
+    "ghost": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli/index.ts",
+    "start": "node dist/cli/index.js",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.9.1",
+    "axios": "^1.12.2",
+    "commander": "^14.0.1",
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
